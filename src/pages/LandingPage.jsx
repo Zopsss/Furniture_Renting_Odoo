@@ -3,17 +3,17 @@ import Item from "../components/Item";
 import { Button } from "@/components/ui/button";
 import { CarouselDemo } from "@/components/CarouselDemo";
 import { ItemCard } from "@/components/component/item-card";
+import { Dashboard } from "@/components/component/Navbar";
 
 const LandingPage = () => {
   return (
     <>
-      <main>
+      {/* <main> */}
         {/* <Item /> */}
-        <Select />
-        <Button>Testing</Button>
+        <Dashboard />
         {/* <CarouselDemo></CarouselDemo> */}
-        <ItemCard />
-      </main>
+        {/* <ItemCard /> */}
+      {/* </main> */}
     </>
   );
 };
