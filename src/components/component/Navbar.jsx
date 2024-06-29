@@ -103,7 +103,7 @@ export function Dashboard() {
             <DropdownMenuContent align="end">
               <DropdownMenuLabel>Email</DropdownMenuLabel>
               <DropdownMenuSeparator />
-              <DropdownMenuItem>My Account</DropdownMenuItem>
+              <DropdownMenuItem><Link to="/profile">My Account</Link></DropdownMenuItem>
               <DropdownMenuSeparator />
               <DropdownMenuItem>Logout</DropdownMenuItem>
             </DropdownMenuContent>

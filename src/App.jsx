@@ -1,6 +1,3 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
 import "./App.css";
 import { Routes, Route } from "react-router-dom";
 import LandingPage from "./pages/LandingPage";
@@ -11,6 +8,7 @@ import Admin_Dashboard from "./pages/Admin_Dashboard";
 import Login from "./pages/LoginPage";
 import SignUp from "./pages/SignUp";
 import Item_detail from "./pages/Item_detail";
+import Profile from "./pages/Profile";
 import "./index.css";
 
 function App() {
@@ -25,6 +23,7 @@ function App() {
         <Route path="/login" element={<Login />} />
         <Route path="/sign_up" element={<SignUp />} />
         <Route path="/item_detail" element={<Item_detail />} />
+        <Route path="/profile" element={<Profile />} />
       </Routes>
     </>
   );
