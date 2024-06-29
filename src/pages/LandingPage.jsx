@@ -1,10 +1,10 @@
-import Test from "../components/Test";
+import Item from "../components/Item";
 
 const LandingPage = () => {
   return (
     <>
       <main>
-        <Test />
+        <Item />
       </main>
     </>
   );

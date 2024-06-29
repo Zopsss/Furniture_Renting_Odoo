@@ -7,6 +7,7 @@ import LandingPage from "./pages/LandingPage";
 import About from "./pages/About";
 import Login from "./pages/Login";
 import Sign_up from "./pages/Sign_up";
+import Item_detail from "./pages/Item_detail";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -18,6 +19,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/login" element={<Login />} />
         <Route path="/sign_up" element={<Sign_up />} />
+        <Route path="/item_detail" element={<Item_detail />} />
       </Routes>
     </>
   );
