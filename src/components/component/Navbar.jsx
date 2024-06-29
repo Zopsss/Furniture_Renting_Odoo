@@ -15,7 +15,7 @@ import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 
 export function Dashboard() {
   return (
-    <div className="flex min-h-screen w-screen flex-col">
+    <div className="flex fixed w-screen top-0 flex-col">
       <header className="sticky top-0 flex h-16 items-center gap-4 border-b bg-background px-4 md:px-6">
         <nav className="hidden flex-col gap-6 text-lg font-medium md:flex md:flex-row md:items-center md:gap-5 md:text-sm lg:gap-6">
           <Link
@@ -29,16 +29,13 @@ export function Dashboard() {
             to=""
             className="text-muted-foreground transition-colors hover:text-foreground"
           >
-            Dashboard
-          </Link>
-          <Link
-            to=""
-            className="text-muted-foreground transition-colors hover:text-foreground"
-          >
             Orders
           </Link>
           <Link to="" className="text-muted-foreground hover:text-foreground">
             Cart
+          </Link>
+          <Link to="" className="text-muted-foreground hover:text-foreground">
+            Rent
           </Link>
         </nav>
         <Sheet>
